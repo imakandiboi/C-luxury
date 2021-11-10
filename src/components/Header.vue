@@ -3,15 +3,15 @@
     <!-- <div>
       <h1>hello</h1>
     </div> -->
-    <nav class="navbar navbar-light navbar-expand-lg bg-light py-3 px-2 fixed-top">
+    <nav class="navbar navbar-light navbar-expand-lg bg-light py-2 px-2 fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> C-luxury Furnitures </a>
+        <a class="navbar-brand" href="#"> <img src="@/assets/img/brand.png" alt="" srcset="" class="logo" /> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas side-bar offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <img src="@/assets/img/brand.png" alt="" srcset="" class="logo" />
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -56,4 +56,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped></style>
+<style scoped>
+.logo {
+  width: 70px;
+}
+</style>

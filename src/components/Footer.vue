@@ -113,7 +113,7 @@ p {
 }
 @media screen and (max-width: 776px) {
   .footer {
-    padding: 50px 25px;
+    padding: 50px 15px;
     height: auto;
   }
   p {
