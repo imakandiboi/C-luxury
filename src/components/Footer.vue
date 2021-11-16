@@ -96,7 +96,7 @@ p {
 }
 a {
   color: #ffd344cc;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: none;
   padding-bottom: 20px;
 }

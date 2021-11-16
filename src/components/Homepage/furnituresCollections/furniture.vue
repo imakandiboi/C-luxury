@@ -107,13 +107,13 @@ h3 {
   font-family: 'Cinzel', serif;
   font-family: 'Noto Serif Display', serif;
   font-weight: 'Medium 500 italic';
-  font-size: 30px;
+  font-size: 20px;
 }
 .video-caption {
   font-family: 'Oranienbaum', serif;
   font-weight: 'Regular 400';
-  font-size: 25px;
+  font-size: 15px;
   color: #ffffff;
-  line-height: 2.5rem;
+  line-height: 2rem;
 }
 </style>
