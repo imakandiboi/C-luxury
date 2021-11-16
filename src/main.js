@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
+//  javascript import for when you're importing the css directly in your javascript  
+import 'vue-video-section/dist/vue-video-section.css'
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
