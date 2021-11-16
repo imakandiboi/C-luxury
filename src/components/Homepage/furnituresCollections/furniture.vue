@@ -6,7 +6,7 @@
     </div>
     <section class="container-xl mt-3 text-center py-5">
       <b-row class="">
-        <b-col md="4" class="">
+        <b-col md="4" class="serve">
           <div class="d-flex">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-x" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M6.146 8.146a.5.5 0 0 1 .708 0L8 9.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 10l1.147 1.146a.5.5 0 0 1-.708.708L8 10.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 10 6.146 8.854a.5.5 0 0 1 0-.708z" />
@@ -16,7 +16,7 @@
           </div>
           <span class="head-para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, saepe! Totam architecto dolor laboriosam dolore officiis autem delectus et voluptates. </span>
         </b-col>
-        <b-col md="4" class="">
+        <b-col md="4" class="serve">
           <div class="d-flex">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z" />
@@ -26,7 +26,7 @@
           </div>
           <span class="head-para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, saepe! Totam architecto dolor laboriosam dolore officiis autem delectus et voluptates. </span>
         </b-col>
-        <b-col md="4" class="">
+        <b-col md="4" class="serve">
           <div class="d-flex">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z" />
@@ -97,13 +97,13 @@ export default {
   font-weight: 'Medium 500 italic';
 }
 .bi {
-  width: 100px;
+  width: 80px;
   height: 80px;
   margin-right: 10px;
   margin-bottom: 30px;
 }
 h3 {
-  padding: 20px 0px;
+  padding: 20px 0px 0px 0px;
   font-family: 'Cinzel', serif;
   font-family: 'Noto Serif Display', serif;
   font-weight: 'Medium 500 italic';
@@ -115,5 +115,25 @@ h3 {
   font-size: 15px;
   color: #ffffff;
   line-height: 2rem;
+}
+@media screen and (max-width: 776px) {
+  .serve {
+    margin: 20px 0px;
+  }
+  .head-title {
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 'Medium 500 italic';
+    font-size: 40px;
+  }
+  .head-para {
+    text-align: left;
+    font-family: 'Oranienbaum', serif;
+    font-weight: 'Regular 400';
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+    line-height: 2rem;
+  }
 }
 </style>
