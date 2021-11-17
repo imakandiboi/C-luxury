@@ -90,7 +90,7 @@ export default {
   width: 70px;
 }
 .nav-item {
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 .bi {
   height: 30px;

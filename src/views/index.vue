@@ -1,16 +1,16 @@
 <template>
   <div>
-    <slider />
+    <videoComponent />
     <furniture />
   </div>
 </template>
 
 <script>
-import Slider from '@/components/Homepage/Slider.vue'
+import videoComponent from '@/components/Homepage/furnituresCollections/videoComponent.vue'
 import furniture from '@/components/Homepage/furnituresCollections/furniture.vue'
 export default {
   components: {
-    Slider,
+    videoComponent,
     furniture,
   },
 }
