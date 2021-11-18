@@ -28,7 +28,7 @@
             <h3>Home, Hotel & ETC</h3>
           </div>
           <hr class="underline" />
-          <span class="head-para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, saepe! Totam architecto dolor laboriosam dolore officiis autem delectus et voluptates. </span>
+          <span class="head-para"> We offer Luxurious Interior Furniture for Home,Hotel,Club,Lounge,Offices etc, We are considered the finest Merchandise in the industry,serving different client both Locally and internationally. </span>
         </b-col>
         <b-col md="4" class="serve">
           <div class="d-flex justify-content-sm-center justify-content-start">
